@@ -12,7 +12,7 @@ const ForumPage = () => {
         <p className="text-gray-600 mt-2">Share your experiences, ask questions, and find solutions.</p>
       </div>
 
-      <div className="mt-10 max-w-3xl mx-auto">
+      <div className="flex gap-3 mt-10 w-1/2 mx-auto">
         {posts.map((post) => (
           <div key={post.id} className="bg-white shadow-md rounded-lg p-5 mb-6">
             <div className="flex items-center gap-2 text-gray-700 mb-2">
