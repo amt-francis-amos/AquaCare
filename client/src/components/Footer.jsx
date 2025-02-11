@@ -74,7 +74,7 @@ function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="text-center mt-6 text-gray-500 text-sm">
+      <div className="text-center mt-6 py-10 text-gray-500 text-sm">
         &copy; {new Date().getFullYear()} AquaCare. All rights reserved.
       </div>
     </footer>
