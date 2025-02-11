@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {assets} from '../assets/assets'
 
 function Footer() {
   return (
@@ -9,6 +10,9 @@ function Footer() {
         
         <div>
           <h2 className="text-2xl font-bold text-blue-400">AquaCare</h2>
+         <Link to="/">
+         <img className="w-20" src={assets.aquaLogo} alt="" />
+         </Link>
           <p className="mt-2 text-gray-400 max-w-[250px]">
             Your trusted platform for health alerts, advice, and consultations.
           </p>
