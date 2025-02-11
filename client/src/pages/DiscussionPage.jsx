@@ -5,7 +5,7 @@ import { discussionData } from "../assets/assets";
 
 const DiscussionPage = () => {
   const { id } = useParams();
-  const discussion = discussionData.find((item) => item.id === Number(id)); // Fix here
+  const discussion = discussionData.find((item) => item.id === Number(id)); 
   const [comments, setComments] = useState(discussion ? discussion.comments : []);
   const [newComment, setNewComment] = useState("");
 

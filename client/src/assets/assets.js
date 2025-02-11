@@ -79,48 +79,32 @@ export const adviceCards = [
 ]
 
 
-export const posts =[
+export const posts = [
+  { id: 1, user: "John Doe", title: "How to improve React performance?", content: "I'm struggling with performance issues in React. Any tips?", comments: 5 },
+  { id: 2, user: "Jane Smith", title: "Best backend for a forum app?", content: "What backend would you recommend for building a scalable forum app?", comments: 3 }
+];
+
+export const discussionData = [
   {
     id: 1,
-    user: "John Doe",
-    title: "How I recovered from Bilharzia",
-    content: "I want to share my journey of overcoming Bilharzia and the treatment that helped me recover.",
-    comments: 3,
+    title: "How to improve React performance?",
+    content: "I'm struggling with performance issues in React. Any tips?",
+    comments: [
+      { id: 1, user: "Alice", text: "Use React.memo to optimize rendering." },
+      { id: 2, user: "Bob", text: "Try code-splitting and lazy loading." }
+    ]
   },
   {
     id: 2,
-    user: "Mary A.",
-    title: "Safe water sources in rural areas?",
-    content: "What are the best practices to ensure clean drinking water in areas prone to Bilharzia?",
-    comments: 5,
-  },
-]
-
-
-
-export const discussionData =[
-  {
-    1: {
-      user: "John Doe",
-      title: "How I recovered from Bilharzia",
-      content: "I want to share my journey of overcoming Bilharzia and the treatment that helped me recover.",
-      comments: [
-        { id: 1, user: "Alice", text: "Thank you for sharing! What treatment did you use?" },
-        { id: 2, user: "Michael", text: "This is really helpful, I'm going through something similar." },
-      ],
-    },
-    2: {
-      user: "Mary A.",
-      title: "Safe water sources in rural areas?",
-      content: "What are the best practices to ensure clean drinking water in areas prone to Bilharzia?",
-      comments: [
-        { id: 1, user: "James", text: "Boiling water is the safest and cheapest method." },
-        { id: 2, user: "Linda", text: "Using water purification tablets can also help." },
-      ],
-    },
+    title: "Best backend for a forum app?",
+    content: "What backend would you recommend for building a scalable forum app?",
+    comments: [
+      { id: 1, user: "Charlie", text: "Node.js with Express is a great choice!" },
+      { id: 2, user: "Dave", text: "You could also consider Firebase for real-time updates." }
+    ]
   }
+];
 
-]
 
 
 
