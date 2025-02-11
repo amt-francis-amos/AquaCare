@@ -21,7 +21,7 @@ const SymptomChecker = () => {
   };
 
   return (
-    <div className="bg-white w-1/2 mx-auto p-6 mb-20 rounded-lg shadow-md">
+    <div className="bg-white w-full  md:w-1/2 mx-auto p-6 mb-20 rounded-lg shadow-md">
       <h2 className="text-2xl font-bold text-blue-900 flex items-center gap-2">
         <FaHeartbeat className="text-red-500" /> Symptom Checker
       </h2>
